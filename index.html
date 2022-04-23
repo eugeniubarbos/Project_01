@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+    <title>NetflixForm</title>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Net<span>Flix</span></h1>
+            <h2>Thank you for signing up at Netflix. Tell us more about yourself</h2>
+        </header>
+        
+            <form action="Netflix.com">
+                <p>Name</p>
+                <input class="inputs" type="text" name="Name" placeholder="Enter your name">
+                <p>Age</p>
+                <input class="inputs" type="number" name="Age" placeholder="Age">
+                <p>Email</p>
+                <input class="inputs" type="email" name="Email" placeholder="Enter your email">
+                <p>Content type</p>
+                <select class="inputs" name="Content-type" id="content" >
+                    <option value="Series"selected>Series</option>
+                    <option value="Kids">Kids</option>
+                    <option value="Movies">Movies</option>
+                </select><br><br>
+                <label for="movie-type">Movie type</label><br>
+                <input type="checkbox" name="movie-type" value="Comedy">Comedy <br>
+                <input type="checkbox" name="movie-type" value="Action">Action <br>
+                <input type="checkbox" name="movie-type" value="Romance">Romance <br><br>
+                <label for="">Gender</label><br>
+                <input type="radio" name="Gender" value="Male" >Male <br>
+                <input type="radio" name="Gender" value="Female" >Female <br>
+                <input type="radio" name="Gender" value="Other" >Other <br>
+                <p>Feed back</p>
+                <textarea name="Feed-back" id="" cols="30" rows="5" placeholder="Any comment"></textarea><br>
+                <button>Submit</button>
+            </form>
+        
+    </main>
+</body>
+</html>

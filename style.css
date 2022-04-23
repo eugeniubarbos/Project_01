@@ -2,30 +2,31 @@ body{
     background-image: url("pictures/background_image.jpg");
     width: cover;
     color: white;
+    padding: 0 20px;
 }
 main{
     background-color: rgb(0, 0, 0, 0.4) ;
 }
 form{
     background-color: black;
-    margin: 50px auto;
+    margin: 20px auto;
     width: 300px;
-    padding: 2%;
+    padding: 20px;
+    font-family:sans-serif ;
 }
 header{
     text-align: center;
     font-family: "Alfa Slab One";
 }
 h1{
-    font-size: 40px;
-    padding-top: 2%;
+    font-size: 45px;
+    padding-top: 15px;
 }
 h2{
-    font-size:smaller ;
-    margin: 0 auto;
+    font-size: medium;
+    font-family: serif;
 }
 .inputs{
-    margin-right: 2%;
     padding: 7px;
     width: 90%;
 }
@@ -39,8 +40,11 @@ button{
     border-radius: 28px;
     margin: 1% auto;
     text-align: center;
-margin-left: 90px;
+    margin-left: 90px;
 }
 span{
     color: red;
+}
+::placeholder{
+    padding: 5px;
 }
